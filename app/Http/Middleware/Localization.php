@@ -16,7 +16,11 @@ class Localization
      */
     public function handle(Request $request, Closure $next): Response
     {
-        App::setLocale(session('lang'));
+        if(!session()->exists('lang')){ // if the session not exists
+            session()->put('lang', 'es'); // set the default language
+        }
+
+        App::setLocale(session('lang')); // set the language
 
         return $next($request);
     }
