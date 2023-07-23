@@ -33,7 +33,7 @@ class RouteServiceProvider extends ServiceProvider
                 ->prefix('api')
                 ->group(base_path('routes/api.php'));
 
-            Route::middleware('web')
+            Route::middleware('web', 'localization') // middleware localization se aplica a todas las rutas web
                 ->group(base_path('routes/web.php'));
         });
     }
