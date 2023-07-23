@@ -198,11 +198,11 @@
     "Contact": "Contacto",
 
     "Gym & Fitness Center": "Gimnasio y Centro Fitness",
-    "Best Gym In Town": "El mejor gimnasio de la ciudad",
-    "Join Us Now": "Únete ahora",
-    "Get Body In Shape": "Ponte en forma",
+    "Best Gym In Town": "El Mejor Gimnasio de la Ciudad",
+    "Join Us Now": "Únete Ahora",
+    "Get Body In Shape": "Ponte en Forma",
 
-    "Get In Touch": "Ponte en contacto",
+    "Get In Touch": "Ponte en Contacto",
     "Quick Links": "Enlaces rápidos",
     "Popular Links": "Enlaces populares",
     "Opening Hours": "Horario de trabajo",
@@ -216,5 +216,78 @@
     "Sunday": "Domingo",
 
     "All Rights Reserved": "Todos los derechos reservados",
-    "Designed by": "Diseñado por"
+    "Designed by": "Diseñado por",
+
+    "Body Building": "Culturismo",
+    "Muscle Building": "Construcción muscular",
+    "Join Now": "Únete ahora",
+
+    "10 Years Experience": "10 años de experiencia",
+    "Certified GYM Center": "Centro de GYM certificado",
+    "Award Winning": "Premiado",
+    "Learn More": "Leer más",
+
+    "Progression": "Progresión",
+    "Workout": "Entrenamiento",
+    "Nutrition": "Nutrición",
+
+    "Why Choose Us?": "¿Por qué elegirnos?",
+    "Benifits of Joining Our GYM": "Beneficios de unirse a nuestro GYM",
+    "Videos Instruction": "Instrucción de videos",
+    "Free Apps & WiFi": "Aplicaciones y WiFi gratis",
+    "Training Calendar": "Calendario de entrenamiento",
+    "Community Support": "Soporte comunitario",
+
+    "Subscribe Our Newsletter": "Suscríbete a nuestro boletín",
+    "Subscribe and get Our latest article in your inbox": "Suscríbete y recibe nuestros últimos artículos en tu bandeja de entrada",
+    "Your Email": "Tu correo electrónico",
+    "Subscribe": "Suscribirse",
+
+    "Class Timetable": "Horario de clases",
+    "Working Hours and Class Time": "Horario de trabajo y horario de clases",
+    "All Classes": "Todas las clases",
+    "Cardio": "Cardio",
+    "Crossfit": "Crossfit",
+    "Powerlifting": "Lev. de pesas",
+    "Power Lifting": "Lev. de pesas",
+    "Time": "Hora",
+
+    "Body Mass Index": "Índice de masa corporal",
+    "What is BMI?": "¿Qué es el IMC?",
+    "Calculate your BMI": "Calcula tu IMC",
+    "Weight": "Peso",
+    "Age": "Edad",
+    "Height": "Altura",
+    "Gender": "Género",
+    "Male": "Masculino",
+    "Female": "Femenino",
+    "Calculate Now": "Calcular ahora",
+
+    "Our Trainers": "Nuestros entrenadores",
+    "Meet Our Expert Trainers": "Conoce a nuestros entrenadores expertos",
+    "Trainer Name": "Nombre del entrenador",
+    "Trainer": "Entrenador",
+
+    "Client Name": "Nombre del cliente",
+    "Profession": "Profesión",
+    "Testimonial": "Testimonio",
+    "What Our Clients Say?": "¿Qué dicen nuestros clientes?",
+
+    "Our Blog": "Nuestro blog",
+    "Latest Article From Blog": "Últimos artículos del blog",
+    "Web Design": "Diseño web",
+    "Comments": "Comentarios",
+    "Read More": "Leer más",
+    "Jan": "Ene",
+
+    "Gym Classes": "Clases de gimnasia",
+
+    "Contact Us": "Contáctanos",
+    "Email Us For Any Query": "Escríbenos para cualquier consulta",
+    "Address": "Dirección",
+    "Phone": "Teléfono",
+    "Your Name": "Tu Nombre",
+    "Subject": "Asunto",
+    "Message": "Mensaje",
+    "Send Message": "Enviar Mensaje"
 }
