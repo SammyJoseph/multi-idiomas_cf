@@ -41,11 +41,20 @@
             <p>2.00 PM - 8.00 PM</p>
         </div>
     </div>
-    <div class="container border-top border-dark pt-5">
-        <p class="m-0 text-center text-white">
+    <div class="container border-top border-dark pt-5 d-flex justify-content-between align-items-center">
+        <p class="m-0 text-white">
             &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. {{ __('All Rights Reserved') }}. {{ __('Designed by') }}
             <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
         </p>
+        <div>
+            <form id="formLocalization" action="{{ route('localization') }}">
+                <select name="lang" class="form-control" onchange="document.querySelector('#formLocalization').submit()">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Française</option>
+                </select>
+            </form>
+        </div>
     </div>
 </div>
 <!-- Footer End -->
