@@ -48,7 +48,7 @@
         </p>
         <div>
             <form id="formLocalization" action="{{ route('localization') }}">
-                <select name="lang" class="form-control" onchange="document.querySelector('#formLocalization').submit()">
+                <select name="lang" class="form-control form-control bg-dark text-white border-danger" onchange="document.querySelector('#formLocalization').submit()">
                     <option value="en" @selected(session('lang') == 'en')>English</option>
                     <option value="es" @selected(session('lang') == 'es')>Español</option>
                     <option value="fr" @selected(session('lang') == 'fr')>Française</option>

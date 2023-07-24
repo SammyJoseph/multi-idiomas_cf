@@ -39,21 +39,16 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto p-4 bg-secondary">
-                {{-- <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link">About Us</a>
-                <a href="{{ route('features') }}" class="nav-item nav-link">Our Features</a>
-                <a href="{{ route('classes') }}" class="nav-item nav-link">Classes</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu text-capitalize">
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="single.html" class="dropdown-item">Blog Detail</a>
-                    </div>
-                </div>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a> --}}
                 @foreach ($links as $link)
                     <a href="{{ $link['url'] }}" class="nav-item nav-link {{ $link['active'] ? 'active' : '' }}">{{ $link['name'] }}</a>                    
                 @endforeach
+                <form id="formLocalizationFlag" class="ml-3" action="{{ route('localization') }}">
+                    <select name="lang" class="form-control bg-dark text-white border-danger" onchange="document.querySelector('#formLocalizationFlag').submit()">
+                        <option value="en" @selected(session('lang') == 'en')>English</option>
+                        <option value="es" @selected(session('lang') == 'es')>Español</option>
+                        <option value="fr" @selected(session('lang') == 'fr')>Française</option>
+                    </select>
+                </form>
             </div>
         </div>
     </nav>
